@@ -1,0 +1,23 @@
+{
+  "name": "express-scraper",
+  "version": "1.0.0",
+  "description": "A simple Node.js and Express application for scraping price data.",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
